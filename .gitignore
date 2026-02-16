@@ -1,0 +1,79 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+ENV/
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# База данных SQLite
+*.db
+*.sqlite
+*.sqlite3
+weather.db
+*.db-shm
+*.db-wal
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Окружение и зависимости
+.env
+.env.local
+.env.*.local
+venv.bak/
+
+# Сборка и дистрибутивы
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# mypy cache
+.mypy_cache/
+
+# Rope refactoring tool
+.ropeproject
+
+# Проектные артефакты
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+$RECYCLE.BIN/
+*.ini
